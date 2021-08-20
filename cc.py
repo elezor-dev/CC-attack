@@ -36,7 +36,7 @@ Version 3.6 (2020/12/19)
 │          [+] Changed Output                 │
 │          [+] Added Url Parser               │
 ├─────────────────────────────────────────────┤
-│ Link: https://github.com/Leeon123/CC-attack │
+│Link: http://github.com/elezor-dev/CC-attack │
 └─────────────────────────────────────────────┘''')
 
 acceptall = [
@@ -520,7 +520,7 @@ def checking(lines,socks_type,ms,rlock,):#Proxy checker coded by Leeon123
 			err +=1
 	nums += 1
 
-def check_socks(ms):#Coded by Leeon123
+def check_socks(ms):#Coded by @ready_coder
 	global nums
 	thread_list=[]
 	rlock = threading.RLock()
@@ -725,4 +725,4 @@ def main():
 	
 
 if __name__ == "__main__":
-	main()#Coded by Leeon123
+	main() #Coded by @ready_coder
